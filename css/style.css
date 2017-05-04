@@ -1,0 +1,405 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.fondo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 430px;
+}
+.isotipo{
+  margin-left: -300px;
+  height: 400px;
+}
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 430px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .navbar-fixed nav{
+     height: 70px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*nuevo codigo priscilla
+/*logo*/
+.responsive-img{
+  max-width: 100%;
+}
+
+/* portafolio dos*/
+.carousel-item{
+  border: 9px solid #424242  ;
+}
+.imgcarr{
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 700px;
+   background-size: cover;
+   height: 210px;
+}
+.carr1{
+  color: #f50057 ;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+.carousel-item{
+  background-color: white;
+  margin-top: -50px;
+}
+.carousel{
+  height: 380px;
+  margin-top: -5px;
+}
+
+
+/*servicios*/
+/*lupa*/
+.lupa1{
+  font-size: 50px;
+  color:#007AAE;
+  border: 1px solid #007AAE;
+  border-radius: 5px;
+}
+.lupa1:hover{
+  color:#009EE0;
+}
+.lupa2{
+  font-size: 50px;
+  color: #E1DD00;
+  border: 1px solid #E1DD00;
+  border-radius: 5px;
+}
+.lupa2:hover{
+  color:#ffd600 ;
+}
+.lupa3{
+  font-size: 50px;
+  color: #E85412;
+  border: 1px solid #E85412;
+  border-radius: 5px;
+}
+.lupa3:hover{
+  color:#ff8f00;
+}
+.precios{
+  font-size: 20px;
+  font-weight: 600;
+  color: #f50057;
+}
+.rojo{
+  color: red;
+  float: right;
+}
+.card-reveal{
+  font-weight: 600;
+}
+.oscuro{
+  font-size: 20px;
+}
+
+/*portada*/
+.sub{
+  font-weight: 600;
+  color:#f5f5f5;
+}
+#ff{
+  margin-top: 140px;
+}
+/* frases*/
+.frases{
+  font-weight: 600;
+  color:black;
+  background-color: white;
+  padding: 15px;
+  border: 9px solid #424242;
+  
+}
+
+/*footer*/
+.telf{
+  color: #64dd17;
+  font-size: 28px;
+  margin-left: 4px;
+}
+.hhh{
+  margin-top: -28px;
+  margin-left: 44px;
+}
+.email{
+  color: #ffab00;
+  font-size: 30px;
+}
+.ubicacion{
+  color: red;
+}
+.facebook{
+  color:#009EE0;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+#pau{
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: -11px;
+}
+.metro{
+  margin-left: 12px;
+  display: inline-block;
+}
+#iconmetro{
+  display: inline-block;
+  height: 25px;
+}
+.correo{
+  font-size: 15px;
+}
+#mapa{
+  max-width: 100%;
+  height: 150px;
+  margin-top: 0px;
+  margin-bottom: -7px;
+}
+#cajamapa{
+  border: 4px solid #007AAE;
+  margin-top: 30px;
+}
+.cuadrado{
+  color:red;
+}
+#fondone{
+  height: 40px;
+  background-image: url(../img/terapia.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+}
+footer{
+  height: 250px;
+}
+/*fondo portada*/
+
+#ff{
+   font-weight: 600;
+}
+#ll{
+   color: #E1DD00;
+   font-weight: 600;
+}
+
+ #tamport{
+  height: 600px !important;
+  background-image: url(../img/fondoportada.png);
+  background-position: center center;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   background-size: cover;
+}
+.texto{
+  margin-top: 150px;
+}
+
+/* cambio de color menu con hover*/
+
+#amari:hover{
+   background-color: #007AAE;
+}
+#amari a:hover{
+  color: white;
+}
+
+#amari1:hover{
+   background-color: #E1DD00;
+}
+#amari1 a:hover{
+  color: white;
+}
+
+#amari2:hover{
+   background-color: #E85412;
+}
+#amari2 a:hover{
+  color: white;
+}
+
+#amari22:hover{
+   background-color: #009EE0;
+}
+#amari22 a:hover{
+  color: white;
+}
+
+#amari3:hover{
+   background-color: #003264;
+}
+#amari3 a:hover{
+  color: white;
+}
+/*fondo quienes somos*/
+#fondosomos{
+  background-color: #ffd600;
+  font-weight:500;
+  font-size: 20px;
+}
+.blanco{
+  color: white;
+  font-size: 20px;
+}
+/*cambiando el menu responsivo*/
+#nav-mobile{
+  background-color: black;
+  padding-top: 40px;
+  width: 210px;
+}
+#cerrarmenu{
+  color: #00b0ff;
+  font-size: 12px;
+  margin-top: 100px;
+}
+/*iconos de colors*/
+
+#amarilloicono{
+  color:#E1DD00;
+  border-radius: 5px;
+}
+#amarilloicono2{
+  color:#E85412;
+  border-radius: 5px;
+}
+#amarilloic{
+  border-radius: 5px;
+}
+#quienesomos2{
+  margin-top: -40px;
+}
+/*masaje*/
+#kkk {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #E85412;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  height: 50px;
+  padding-top: 9px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+#textomasaje{
+  width: 500px;
+  background-color: white;
+  color: black;
+  padding:10px 40px 10px 40px;
+  border-radius: 5px;
+  margin-left: 220px;
+}
+.achicar{
+  margin-bottom: -5px;
+}
+.tituloterapias{
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+/***********************************/
+@media only screen and (max-width: 768px ){
+  footer h5{
+      text-align: center;
+  }
+  footer{
+    height: 596px;
+  }
+  iframe{
+     width: 650px;
+  }
+  .carousel{
+      height: 310px;
+  }
+  .boxfrases{
+    margin-top: -70px;
+  }
+  .frases{
+    margin-top: -60px;
+  }
+  .teal.lighten-1{
+    margin-top: 40px;
+    margin-bottom: -50px;
+  }
+  #ff{
+    margin-top: -80px;
+  }
+  img.responsive-img, video.responsive-video{
+    margin-top: 7px;
+  }
+  #quienesomos2 {
+     margin-top: -40px;
+  }
+  #kkk{
+    margin-top: -230px;
+  }
+  #textomasaje{
+    width: 300px;
+    margin-top: -60px;
+    margin-left: 18px;
+  }
+  .tituloterapias{
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+}
